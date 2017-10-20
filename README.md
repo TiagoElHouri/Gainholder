@@ -1,0 +1,2 @@
+# Gainholder
+Plataforma notícias 

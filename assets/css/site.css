@@ -1,0 +1,56 @@
+
+	body {
+		margin: 0px;
+		padding: 0px;
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 12pt;
+		color: #000;
+	}
+
+		h1,h2,h3,h4,h5,h6 {
+			font-size: 1em;
+		}
+
+		/* TEXT COLORS */
+		.txt-white {
+			color: #fff;
+		}
+		.txt-green {
+			color: #00bf00;
+		}
+		.txt-red {
+			color: #EF0000;
+		}
+        
+        .btn-large{
+        	height: 40px;
+        	letter-spacing: 1px;
+        	font-weight: bold;
+        }
+
+        	    /*
+	     * LOGIN
+	     */
+	    .login {
+	        position: absolute;
+	        top: 50%;
+	        left: 50%;
+	        margin-top: -150px;
+	        margin-left: -180px;
+	    }
+	        .login fieldset {
+	            padding: 15px;  
+	        }
+	        .login img {
+	            position: relative;
+	            top: 7px;
+	            left: 65px;
+	            margin-bottom: 20px;
+	            margin-left: -14px;
+	        }
+	        .login input[type=text],
+	        .login input[type=password] {
+	            width: 100%;
+	        }  
+    
+    

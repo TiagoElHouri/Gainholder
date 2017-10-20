@@ -1,0 +1,15 @@
+<?php
+
+	// POSSÍVEL AÇÃO PARA REQUISIÇÃO POR POST NA PÁGINA EXEMPLO
+	if($_SERVER['REQUEST_METHOD'] == "POST"){
+
+	}
+
+?>
+	<div>
+		<!-- CONTEÚDO PARA SER EXIBIDO NA PÁGINA EXEMPLO -->
+	</div>
+
+	<script>
+		// CONTEÚDO JAVASCRIPT/JQUERY PARA SER APLICA À PÁGINA EXEMPLO
+	</script>

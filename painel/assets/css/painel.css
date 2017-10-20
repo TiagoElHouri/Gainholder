@@ -1,0 +1,388 @@
+	
+	@font-face {
+	    font-family: 'colaborate-thinregular';
+	    src: url('../fonts/ColabThi-webfont.eot');
+	    src: url('../fonts/ColabThi-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../fonts/ColabThi-webfont.woff') format('woff'),
+	         url('../fonts/ColabThi-webfont.ttf') format('truetype'),
+	         url('../fonts/ColabThi-webfont.svg#colaborate-thinregular') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+
+	}
+
+	@font-face {
+	    font-family: 'colaboratelightregular';
+	    src: url('../fonts/ColabLig-webfont.eot');
+	    src: url('../fonts/ColabLig-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../fonts/ColabLig-webfont.woff') format('woff'),
+	         url('../fonts/ColabLig-webfont.ttf') format('truetype'),
+	         url('../fonts/ColabLig-webfont.svg#colaboratelightregular') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+
+	}
+
+	@font-face {
+	    font-family: 'colaborate-mediumregular';
+	    src: url('../fonts/ColabMed-webfont.eot');
+	    src: url('../fonts/ColabMed-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../fonts/ColabMed-webfont.woff') format('woff'),
+	         url('../fonts/ColabMed-webfont.ttf') format('truetype'),
+	         url('../fonts/ColabMed-webfont.svg#colaborate-mediumregular') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+
+	}
+
+	@font-face {
+	    font-family: 'colaborate-boldregular';
+	    src: url('../fonts/ColabBol-webfont.eot');
+	    src: url('../fonts/ColabBol-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../fonts/ColabBol-webfont.woff') format('woff'),
+	         url('../fonts/ColabBol-webfont.ttf') format('truetype'),
+	         url('../fonts/ColabBol-webfont.svg#colaborate-boldregular') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+
+	}
+
+	html, body{ 
+		height: 100%;
+	}
+
+	body {
+		/*background-color: #2f2f2f;*/
+		font-family: 'colaborate-thinregular';
+		font-size: 18px;
+		background-color: #2f2f2f;
+	}
+
+	.geral {
+		height: 100%;
+	}
+
+		.topo h1 {
+			width: 292px;
+			margin: 20px auto;
+			background-image: url('../img/logotipo.png');
+			background-repeat: no-repeat;
+		}
+			.topo h1 a {
+				display: block;
+				width: 292px;
+				height: 80px;
+				text-indent: -9999em;
+			}
+
+		.menu-lateral {
+			height: 100%;
+    		min-height: 100%;
+			background-color: #2f2f2f;
+		}
+			.menu-lateral  .ml-cabecalho {
+				margin-bottom: 10px;
+				border-bottom: 8px solid #264579;
+				background-color: #264579;
+				text-align: center;
+			}
+			.menu-lateral nav {}
+				.menu-lateral nav ul {
+					padding-left: 10px;
+				}
+					.menu-lateral ul li {
+						border-bottom: 1px solid #272727;
+						list-style-type: none;
+						color: #fff;
+					}
+					.menu-lateral ul li:hover {
+							background-color: #264579;
+					}
+						.menu-lateral ul li a:link, 
+						.menu-lateral ul li a:visited,
+						.menu-lateral ul li a:hover,
+						.menu-lateral ul li a:active {
+							display: block;
+							padding: 10px 5px;
+							color: #fff;
+						}
+
+		.conteudo {
+			height: 100%;
+			min-height: 100%;
+			background-color: #264579;
+		}
+
+			.menu-superior {
+				padding: 15px;
+				background-color: #fff;
+				box-shadow: 0 2px 2px rgba(0,0,0,.05),0 1px 0 rgba(0,0,0,.05);
+				text-align: right;
+			}
+				.menu-superior p {
+					margin: 0;
+				}
+				.menu-superior ul {}
+					.menu-superior li {
+
+					}
+
+			.modulo {
+				min-height: 100%;
+				padding: 5px 25px;
+				background-color: #f7f7f7;
+			}
+				.modulo h2 {
+					margin-left: 5px;
+					font-size: 1.8em;
+				}
+				.sessao {
+					min-height: 20px;
+					margin: 5px;
+					padding: 10px 25px;
+					background: #fff;
+					border-radius: 3px;
+					box-shadow: 0 2px 2px rgba(0,0,0,.05),0 1px 0 rgba(0,0,0,.05);
+				}
+					.sessao h3 {
+						font-size: 1.1em;
+						color: #264579;
+						font-weight: 700;
+					}
+					.sessao h4 {
+						font-size: 1.5em;
+					}
+					.sessao h5 {
+						font-size: 1.3em;
+					}
+					.sessao a:link,
+					.sessao a:visited,
+					.sessao a:hover,
+					.sessao a:active {
+						color: #264579;
+						font-weight: 700;
+					}
+					.sessao ul {
+						margin: 5px 0;
+						padding: 0;
+					}
+						.sessao ul li {
+							padding: 5px 0;
+							border-bottom: 1px dashed #d4d4d4;
+							list-style-type: none;
+						}
+					.dl-horizontal {
+						margin: 15px 0;
+					}
+						.dl-horizontal dt {
+							width: auto;
+						}
+
+ 	/* FORMULÁRIOS V0.1 
+    --------------------------------------*/
+    fieldset {
+        width: 98%;
+        margin: 10px auto;
+        color: #757575;
+        border-radius: 8px;
+        -moz-border-radius: 8px; 
+        -webkit-border-radius: 8px;  
+        -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+    }
+        legend {
+        	color: #264579;
+        }
+        fieldset legend {
+        	margin-bottom: 5px;
+        }
+    fieldset fieldset {
+        margin: 10px auto;
+    }
+        fieldset fieldset legend {
+            font-size: 26px;
+        }
+    fieldset fieldset fieldset {
+        border-radius: 0;
+    }
+        fieldset fieldset fieldset legend {
+            font-weight: normal;
+        }
+    fieldset.multi{
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+        padding: 0;
+        border: 0;
+    }
+    fieldset.mostrar {
+        height: auto;
+        overflow: visible;
+    }
+        fieldset.mostrar legend {
+            font-weight: bold;
+            cursor: pointer;
+        }
+    fieldset.recolher {
+        font-weight: bold;
+        padding-top: 10px;
+        height: 9px;
+        overflow: hidden;
+    }
+        fieldset.recolher legend {
+            cursor: pointer;
+            text-overflow: ellipsis;
+            width: 800px;
+            white-space: nowrap; 
+            overflow:hidden;
+        }
+
+    /* FIELDSET: UI ESCOLHA DE ITENS */
+    fieldset.ecolha-itens {}
+    .escolha-itens .adicionar-remover,
+    .escolha-itens-a .adicionar-remover {
+      float: left; 
+      padding-top: 80px;
+    }
+      .escolha-itens .adicionar-remover button:first-child,
+      .escolha-itens-a .adicionar-remover button:first-child {
+        display: block;
+      }
+    .escolha-itens select,
+    .escolha-itens-a select  {
+    width: 350px;
+    }
+    .escolha-itens .ordenar,
+    .escolha-itens-a .ordenar {
+    padding-top: 40px;
+    }
+    .escolha-itens .ordenar button:first-child,
+    .escolha-itens-a .ordenar button:first-child  {
+      display: block;
+    }
+        label {
+        	display: block;
+            margin: 5px;
+            font-family: "colaboratelightregular";
+            font-weight: 400;
+        }
+            label.error { }
+            label.alinhado{
+                float: left;
+            }
+            label.naoalinhado{
+                clear: both;
+                display: block;
+            }
+            label input[type=text], label input[type=file], label input[type=checkbox], label input[type=password], select, textarea {
+                display: block;
+                width: 100%;
+                padding: 8px;
+                border: 1px solid #e5e5e5;
+                background-color: #f7f7f7;
+                border-radius: 4px; 
+                -moz-border-radius: 4px; 
+                -webkit-border-radius: 4px;
+                font-weight: normal;
+                color: #4b4b4b;
+
+            }
+            label input[type=file] {
+            	font-size: 0.8em;
+                /* margin-left: 6px; */
+            }
+            label img {
+                margin: 3px;
+                border: 1px solid gray;
+            }
+                textarea {
+                    width: 99%;
+                    padding: 0.5%;
+                    background: none; 
+                }
+                input.error, select.error {
+                    border: 1px solid #f86464 !important;
+                    background: #ffbbbb !important;
+                }
+                /*input.valid {
+                    border: 1px solid #57bb57 !important;
+                    background: #d7ffd7 !important;
+                }*/
+                input.error, select.error, .input-validation-error {
+                    border: 1px solid #f86464 !important;
+                    background: #ffbbbb !important;
+                }
+            label.error {
+                font-size: 0.85em;
+                font-style: italic;
+                color: #ef4545;
+            }
+            input[type=radio] {
+                padding: 15px;
+            }
+            input[type=submit], input[type=button] {
+                padding: 4px 8px;
+            }
+
+
+	/* EXTRAS */
+	.btn {text-transform: uppercase; font-weight: 300 !important;}
+.btn-laranja{color:#FFF;background-color:#264579;border-color:#130269}.btn-laranja.active,.btn-laranja:active,.btn-laranja:focus,.btn-laranja:hover,.open .dropdown-toggle.btn-laranja{color:#FFF;background-color:#16305c;border-color:#130269}.btn-laranja.active,.btn-laranja:active,.open .dropdown-toggle.btn-laranja{background-image:none}.btn-laranja.disabled,.btn-laranja.disabled.active,.btn-laranja.disabled:active,.btn-laranja.disabled:focus,.btn-laranja.disabled:hover,.btn-laranja[disabled],.btn-laranja[disabled].active,.btn-laranja[disabled]:active,.btn-laranja[disabled]:focus,.btn-laranja[disabled]:hover,fieldset[disabled] .btn-laranja,fieldset[disabled] .btn-laranja.active,fieldset[disabled] .btn-laranja:active,fieldset[disabled] .btn-laranja:focus,fieldset[disabled] .btn-laranja:hover{background-color:#264579;border-color:#130269}.btn-laranja .badge{color:#264579;background-color:#FFF}	.grafico {
+		width: 502px;
+		height: 352px;
+		margin: auto;
+		border: 1px solid #EBEBEB;
+	}
+
+	.clear {
+		clear: both;
+	}
+	label.alinhado{
+	    float: left;
+	}
+	label.naoalinhado{
+	    clear: both;
+	    display: block;
+	}
+        
+        .opt-align{
+            background:#eee;
+            height: 50px;
+            margin-bottom: -50px;
+            border-radius: 10px;
+        }
+        
+        .opt-align label{
+            margin-left:82%;
+        }
+        
+        .clearFields:hover{
+            cursor:pointer;
+        }
+
+	 /* SLICK MENU */
+	.slicknav_menu { display:none; }
+
+	@media screen and (max-width:991px) {
+
+		.slicknav_menu {
+			display:block;
+		}
+
+	}   
+
+	/* AJUSTAR NO CSS */
+	.menu-aba{
+		float: right;
+    	position: relative;
+	    top: -47px;
+    }
+
+    .menu-aba li{
+    	display: inline-block;
+    	border-bottom-style: none !important;
+    	padding:5px 10px !important;
+    	border-radius: 4px 4px 0px 0px;
+    	background-color: #eee;
+    	letter-spacing: 1px;
+    }   
+

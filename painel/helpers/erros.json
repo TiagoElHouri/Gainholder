@@ -1,0 +1,84 @@
+{
+    "description" : "Template de mensagens para o serviço de autenticação",
+    "messages" : { //OK
+        "usuario-bloqueado" : {
+            "subject" : "Acesso bloqueado por excesso de tentativas",
+            "message" : "Olá %s, <br /> Seu acesso foi bloqueado pelo excesso de tentativas. Por favor, contate o administrador para liberação. Lembre-se de que esse recurso é para sua segurança."
+        }
+    },
+    "alerts" : {
+        "conta-em-uso" : {// OK
+            "style"   : "danger",
+            "title"   : "Ops! Conta em uso!",
+            "message" : "Esta conta já está registrada e sendo utilizada no momento!"
+        },
+        "tentativas-esgotando" : {//OK
+            "style"   : "warning",
+            "title"   : "Ops! Verifique com cuidado os dados!",
+            "message" : "Suas tentativas estão acabando. Você só tem %s tentativa(s)! Após exceder esse número, seu acesso só será liberado através da aprovação do administrador!"
+        },
+        "dados-incorretos" : { // OK
+            "style"   : "info",
+            "title"   : "Ops! Dados incorretos!",
+            "message" : "Não foi possível realizar a autenticação. Por favor, confira seus dados!"
+        },
+        "usuario-bloqueado" : { // POSSIVEL
+            "style"   : "danger",
+            "title"   : "Ops! Usuário bloqueado!",
+            "message" : "Não foi possível realizar a autenticação, pois este usuário encontra-se bloqueado no sistema. Por favor, contate o administrador para liberação!"
+        },
+        "usuario-inexistente" : { // OK
+            "style"   : "danger",
+            "title"   : "Ops! Dados incorretos!",
+            "message" : "Não foi possível realizar a autenticação. Por favor, confira seus dados!"
+        }
+    }
+}
+
+
+{
+    "description" : "Template de mensagens para o serviço de recuperação de senha",
+    "messages" : {
+        "link-enviado" : {
+            "subject" : "Redefinição de senha", // OK
+            "message" : "Olá %s, <br /> Recentemente você solicitou um link para redefinir sua senha e para concluir o processo acesse: <br /> <a href=\"%s\" target=\"_blank\">%s</a> <br /> Atenciosamente,<br/>"
+        }
+    },
+    "alerts" : {
+        "nenhum-usuario-encontrado" : { // POSSIVEL
+            "style"   : "danger",
+            "title"   : "Oops! Nenhum usuário encontrado",
+            "message" : "Por favor, verifique o nome de usuário informado e tente novamente!"
+        },
+        "nenhum-exemplo-encontrado" : { // TEMPLATE
+            "style"   : "danger",
+            "title"   : "Oops! Nenhum exemplo encontrado",
+            "message" : "Por favor, verifique o exemplo informado e tente novamente!"
+        },
+        "link-nao-definido" : {// POSSIVEL
+            "style"   : "warning",
+            "title"   : "Oops! O link não foi definido!",
+            "message" : "Por favor, contate o administrador para corrigir este problema."
+        },
+        "email-nao-enviado" : {// POSSIVEL
+            "style"   : "warning",
+            "title"   : "Oops! E-mail não enviado",
+            "message" : "Por favor, contate o administrador para corrigir este problema."
+        },
+        "token-invalido" : {// POSSIVEL
+            "style"   : "danger",
+            "title"   : "Oops! Código inválido ou expirado!",
+            "message" : "Por favor, solicite um novo link de redefinição."
+        },
+        "link-enviado" : {// POSSIVEL
+            "style"   : "success",
+            "title"   : "Uhull! O link de redefinição de sua senha foi enviado com sucesso!",
+            "message" : "Verifique a sua caixa de entrada ou de SPAM para encontrar nosso e-mail."
+        },
+        "senha-redefinida" : { // OK
+            "style"   : "success",
+            "title"   : "Uhull! Sua senha foi redefinida com sucesso!",
+            "message" : "Faça login com seus novos dados."
+        }
+    }
+}
